@@ -1,0 +1,100 @@
+<?xml version="1.0" ?>
+<root>
+    <map>
+        <grid width="16" height="16">
+            <row>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</row>
+            <row>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</row>
+            <row>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</row>
+            <row>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</row>
+            <row>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</row>
+            <row>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</row>
+            <row>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</row>
+            <row>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</row>
+            <row>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</row>
+            <row>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</row>
+            <row>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</row>
+            <row>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</row>
+            <row>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</row>
+            <row>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</row>
+            <row>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</row>
+            <row>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</row>
+        </grid>
+    </map>
+    <algorithm>
+        <planner>cbs</planner>
+        <low_level>astar</low_level>
+        <with_cat>true</with_cat>
+        <with_perfect_h>false</with_perfect_h>
+        <with_card_conf>true</with_card_conf>
+        <with_bypassing>true</with_bypassing>
+        <with_matching_h>true</with_matching_h>
+        <with_disjoint_splitting>true</with_disjoint_splitting>
+        <gen_subopt_from_opt>false</gen_subopt_from_opt>
+        <focal_w>1.5</focal_w>
+        <pp_order>2</pp_order>
+        <parallelize_paths_1>true</parallelize_paths_1>
+        <parallelize_paths_2>true</parallelize_paths_2>
+    </algorithm>
+    <options>
+        <agents_file>empty-16-16-random</agents_file>
+        <tasks_count>2</tasks_count>
+        <agents_range min="1" max="16"/>
+        <maxtime>1000</maxtime>
+        <single_execution>false</single_execution>
+        <aggregated_results>true</aggregated_results>
+        <logfilename/>
+    </options>
+    <log>
+        <mapfilename>empty_batch_aggregated.xml</mapfilename>
+        <results>
+            <result agents_count="1" success_count="2" total_nodes="0" final_HL_nodes="0" final_HL_expansions="0" final_HL_nodes_start="0" final_HL_expansions_start="0">
+                <iteration HL_expansions="0" HL_nodes="1" LL_avg_expansions="0" LL_avg_nodes="0" flowtime="11.5" focal_w="1.5" makespan="11.5" start_HL_expansions="0" start_HL_nodes="0" time="0" total_nodes="0"/>
+            </result>
+            <result agents_count="2" success_count="2" total_nodes="0" final_HL_nodes="0" final_HL_expansions="0" final_HL_nodes_start="0" final_HL_expansions_start="0">
+                <iteration HL_expansions="0" HL_nodes="1" LL_avg_expansions="0" LL_avg_nodes="0" flowtime="29" focal_w="1.5" makespan="18.5" start_HL_expansions="0" start_HL_nodes="0" time="0" total_nodes="0"/>
+            </result>
+            <result agents_count="3" success_count="2" total_nodes="0" final_HL_nodes="0" final_HL_expansions="0" final_HL_nodes_start="0" final_HL_expansions_start="0">
+                <iteration HL_expansions="0" HL_nodes="1" LL_avg_expansions="0" LL_avg_nodes="0" flowtime="39.5" focal_w="1.5" makespan="18.5" start_HL_expansions="0" start_HL_nodes="0" time="0" total_nodes="0"/>
+            </result>
+            <result agents_count="4" success_count="2" total_nodes="0" final_HL_nodes="0" final_HL_expansions="0" final_HL_nodes_start="0" final_HL_expansions_start="0">
+                <iteration HL_expansions="0" HL_nodes="1" LL_avg_expansions="0" LL_avg_nodes="0" flowtime="52" focal_w="1.5" makespan="18.5" start_HL_expansions="0" start_HL_nodes="0" time="0" total_nodes="0"/>
+            </result>
+            <result agents_count="5" success_count="2" total_nodes="0" final_HL_nodes="0" final_HL_expansions="0" final_HL_nodes_start="0" final_HL_expansions_start="0">
+                <iteration HL_expansions="0" HL_nodes="1" LL_avg_expansions="0" LL_avg_nodes="0" flowtime="59" focal_w="1.5" makespan="18.5" start_HL_expansions="0" start_HL_nodes="0" time="0" total_nodes="0"/>
+            </result>
+            <result agents_count="6" success_count="2" total_nodes="0" final_HL_nodes="0" final_HL_expansions="0" final_HL_nodes_start="0" final_HL_expansions_start="0">
+                <iteration HL_expansions="0" HL_nodes="1" LL_avg_expansions="0" LL_avg_nodes="0" flowtime="71" focal_w="1.5" makespan="18.5" start_HL_expansions="0" start_HL_nodes="0" time="0" total_nodes="0"/>
+            </result>
+            <result agents_count="7" success_count="2" total_nodes="0" final_HL_nodes="0" final_HL_expansions="0" final_HL_nodes_start="0" final_HL_expansions_start="0">
+                <iteration HL_expansions="0" HL_nodes="1" LL_avg_expansions="0" LL_avg_nodes="0" flowtime="79.5" focal_w="1.5" makespan="18.5" start_HL_expansions="0" start_HL_nodes="0" time="0" total_nodes="0"/>
+            </result>
+            <result agents_count="8" success_count="2" total_nodes="0" final_HL_nodes="0" final_HL_expansions="0" final_HL_nodes_start="0" final_HL_expansions_start="0">
+                <iteration HL_expansions="0" HL_nodes="1" LL_avg_expansions="0" LL_avg_nodes="0" flowtime="89.5" focal_w="1.5" makespan="18.5" start_HL_expansions="0" start_HL_nodes="0" time="0" total_nodes="0"/>
+            </result>
+            <result agents_count="9" success_count="2" total_nodes="0" final_HL_nodes="0" final_HL_expansions="0" final_HL_nodes_start="0" final_HL_expansions_start="0">
+                <iteration HL_expansions="0" HL_nodes="1" LL_avg_expansions="0" LL_avg_nodes="0" flowtime="101.5" focal_w="1.5" makespan="18.5" start_HL_expansions="0" start_HL_nodes="0" time="0" total_nodes="0"/>
+            </result>
+            <result agents_count="10" success_count="2" total_nodes="0" final_HL_nodes="0" final_HL_expansions="0" final_HL_nodes_start="0" final_HL_expansions_start="0">
+                <iteration HL_expansions="0.5" HL_nodes="1.5" LL_avg_expansions="26" LL_avg_nodes="74.25" flowtime="112" focal_w="1.5" makespan="18.5" start_HL_expansions="0" start_HL_nodes="0" time="0.00050000000000000001" total_nodes="0"/>
+            </result>
+            <result agents_count="11" success_count="2" total_nodes="0" final_HL_nodes="0" final_HL_expansions="0" final_HL_nodes_start="0" final_HL_expansions_start="0">
+                <iteration HL_expansions="0.5" HL_nodes="1.5" LL_avg_expansions="26" LL_avg_nodes="74.25" flowtime="117.5" focal_w="1.5" makespan="18.5" start_HL_expansions="0" start_HL_nodes="0" time="0.00050000000000000001" total_nodes="0"/>
+            </result>
+            <result agents_count="12" success_count="2" total_nodes="0" final_HL_nodes="0" final_HL_expansions="0" final_HL_nodes_start="0" final_HL_expansions_start="0">
+                <iteration HL_expansions="0.5" HL_nodes="1.5" LL_avg_expansions="26" LL_avg_nodes="74.25" flowtime="128.5" focal_w="1.5" makespan="18.5" start_HL_expansions="0" start_HL_nodes="0" time="0.001" total_nodes="0"/>
+            </result>
+            <result agents_count="13" success_count="2" total_nodes="0" final_HL_nodes="0" final_HL_expansions="0" final_HL_nodes_start="0" final_HL_expansions_start="0">
+                <iteration HL_expansions="1" HL_nodes="2" LL_avg_expansions="14.75" LL_avg_nodes="44.875" flowtime="135.5" focal_w="1.5" makespan="18.5" start_HL_expansions="0" start_HL_nodes="0" time="0.001" total_nodes="0"/>
+            </result>
+            <result agents_count="14" success_count="2" total_nodes="0" final_HL_nodes="0" final_HL_expansions="0" final_HL_nodes_start="0" final_HL_expansions_start="0">
+                <iteration HL_expansions="1" HL_nodes="2" LL_avg_expansions="14.75" LL_avg_nodes="44.875" flowtime="143" focal_w="1.5" makespan="18.5" start_HL_expansions="0" start_HL_nodes="0" time="0.001" total_nodes="0"/>
+            </result>
+            <result agents_count="15" success_count="2" total_nodes="0" final_HL_nodes="0" final_HL_expansions="0" final_HL_nodes_start="0" final_HL_expansions_start="0">
+                <iteration HL_expansions="1.5" HL_nodes="2.5" LL_avg_expansions="68.75" LL_avg_nodes="165.375" flowtime="154" focal_w="1.5" makespan="18.5" start_HL_expansions="0" start_HL_nodes="0" time="0.0015" total_nodes="0"/>
+            </result>
+            <result agents_count="16" success_count="1" total_nodes="0" final_HL_nodes="0" final_HL_expansions="0" final_HL_nodes_start="0" final_HL_expansions_start="0">
+                <iteration HL_expansions="2" HL_nodes="3" LL_avg_expansions="29.5" LL_avg_nodes="89.75" flowtime="152" focal_w="1.5" makespan="20" start_HL_expansions="0" start_HL_nodes="0" time="0.002" total_nodes="0"/>
+            </result>
+        </results>
+    </log>
+</root>
