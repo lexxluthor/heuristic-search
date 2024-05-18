@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+             width="70" height="70" viewBox="0 -700 700 700">
+
+<defs>
+
+</defs>
+
+<rect fill="#84A1AE" height="70" rx="15" width="70" x="165" y="-235" />
+<rect fill="#84A1AE" height="70" rx="15" width="70" x="165" y="-335" />
+<rect fill="#84A1AE" height="70" rx="15" width="70" x="165" y="-435" />
+<rect fill="#84A1AE" height="70" rx="15" width="70" x="165" y="-535" />
+<rect fill="#84A1AE" height="70" rx="15" width="70" x="265" y="-235" />
+<rect fill="#84A1AE" height="70" rx="15" width="70" x="265" y="-535" />
+<rect fill="#84A1AE" height="70" rx="15" width="70" x="365" y="-235" />
+<rect fill="#84A1AE" height="70" rx="15" width="70" x="365" y="-535" />
+<rect fill="#84A1AE" height="70" rx="15" width="70" x="465" y="-235" />
+<rect fill="#84A1AE" height="70" rx="15" width="70" x="465" y="-335" />
+<rect fill="#84A1AE" height="70" rx="15" width="70" x="465" y="-435" />
+<rect fill="#84A1AE" height="70" rx="15" width="70" x="465" y="-535" />
+<circle cx="400" cy="-300" fill="#c1433c" r="35"> <animate attributeName="cy" dur="1.4000000000000001s" keyTimes="0.0;0.1666666667;0.3333333333;0.6666666667;0.8333333333;1.0" repeatCount="indefinite" values="-300;-300;-400;-400;-300;-300"/>
+<animate attributeName="cx" dur="1.4000000000000001s" keyTimes="0.0;0.1666666667;0.3333333333;0.5;1.0" repeatCount="indefinite" values="400;400;400;300;300"/>
+<animate attributeName="visibility" dur="1.4000000000000001s" keyTimes="0.0;0.1666666667;0.6666666667;0.8333333333;1.0" repeatCount="indefinite" values="visible;visible;visible;hidden;hidden"/> </circle>
+<circle cx="300" cy="-300" fill="none" r="35" stroke="#c1433c" stroke-width="10"> <animate attributeName="visibility" dur="1.4000000000000001s" keyTimes="0.0;0.1666666667;0.6666666667;0.8333333333;1.0" repeatCount="indefinite" values="visible;visible;visible;hidden;hidden"/> </circle>
+</svg>
